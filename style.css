@@ -1,1 +1,21 @@
 /* Acá va tu código */
+body {
+    background-color: rgb(224, 224, 77);
+
+}
+h1 { 
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    color: green;
+    font-weight: bold;
+    font-style: normal;
+}
+ 
+
+#caja1 {
+    color: blueviolet
+    
+}
+    
