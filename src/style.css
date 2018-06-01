@@ -1,21 +1,117 @@
 /* Acá va tu código */
 body {
-    background-color: rgb(224, 224, 77);
+    background-color:rgb(126, 224, 45);
 
 }
+
 h1 { 
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    color: green;
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: #092a35;
+    text-align: center;
 }
- 
 
-#caja1 {
-    color: blueviolet
+.img1 {
+   float: right;
+   width: 250px;
+   top: 20px;
+}
+
+h2 {
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+    color: #d4dfbf;
+    font-size: 20px;
+}
+
+#positions {
+    position: relative;
+    margin-left: 530px;
+    width: 80px;
+    font-size: 20px;
+    color: #f8eeb4;
+    padding: 20px;
+    background-color:#092a35;
+    font-family: 'Syncopate', sans-serif;
     
 }
-    
+
+.contenedorED {
+    position: relative;
+    width: 300PX;
+    bottom: 30px;
+    left: 180px;;
+   
+}
+
+#encode {
+    position: relative;
+    margin-top: 50%;
+    padding: 9px;
+    font-size: 20px;
+    font-family: 'Syncopate', sans-serif;
+    color:  #092a35;
+    background-color:#cfee91;
+    text-align: center;
+}
+
+#decode {
+    position: relative;
+    margin-top: 50%;
+    padding: 9px;
+    font-size: 20px;
+    font-family: 'Syncopate', sans-serif;
+    color:  #092a35;
+    background-color:#cfee91;
+    text-align: center;
+}
+
+#reset {
+    position: relative;
+    margin-top: 3%;
+    padding: 9px;
+    font-size: 20px;
+    font-family: 'Syncopate', sans-serif;
+    color:  #092a35;
+    background-color:#cfee91;
+    text-align: center;
+    left: 55px;
+}
+
+
+#boxCipher {
+    position: relative;
+    left: 100px;
+    top: 150px;
+    padding: 40px;
+    padding-right: 7%;
+    background-color:#092a35;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 20px;
+    color: #f8eeb4;
+    direction: ltr;
+}
+
+#boxMensaje {
+    position: relative;
+    left: 180px;
+    top: 150px;
+    padding: 40px;
+    padding-right: 7%;
+    background-color:#092a35;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 20px;
+    color: #f8eeb4;
+    direction: ltr;
+}
+
+.textoMensaje {
+    position: relative;
+    top: 150px;
+    text-align: right;
+    color: #cfee91;
+    font-family: 'Syncopate', sans-serif;
+
+   
+
+}
