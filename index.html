@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Syncopate" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
- 
-  
+
 </head>
 
 <body>
-<center>
-<h1 class = "cifrado - descifrado" >cifrado - descifrado</h1>
-<h2 class = "Escribe tu palabra o frase">Escribe tu palabra o frase</h2>
- 
-<div id="root">
-  
-  <div id = "caja1" ></div>
-  <div id = "caja2" ></div>
-  <div id = "caja3" ></div>
+  <div id="root">
+
+    <h1>Mensaje secreto</h1>
+    <h2>Podrás cifrar y descifrar tus conversaciones usando cifrado César</h2>
+    <img class="img1" src="interrogante.png" alt="interrogante">
+
+    <!-- posición offset-->
+    <div>
+      <form name="posición">
+        <input type="number" id="positions" name="numero" min="0" max="33">
+      </form>
+    </div>
+
+    <div>
+      <textarea  id="boxCipher"></textarea>
+      <textarea  id="boxMensaje"></textarea>
+      <p class="textoMensaje">Tu Mensaje</p>
+    </div>
+
+    <div class="contenedorED">
+      <button  id="encode">cifrar</button>
+      <button  id="decode">descifrar</button>
+      <button onclick="reiniciar()" id="reset">reiniciar</button>
+      <input type="button" onclick="" value="">
+
+    </div>
 
 
-</div>
-
-  <button onclick="cipher">cifrar</button>
-  <button onclick="decipher">Descifrar</button>
-  <button onclick="result">resultado</button>
+  </div>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
-
-</center>
 </body>
+
 </html>
